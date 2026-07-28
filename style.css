@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #ff4da6;
+    color: white;
+}
+
+header a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+/* Text */
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    color: #ff4da6;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Image */
+.hero-img {
+    width: 40%;
+}
+
+.hero-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background: #ff4da6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e60073;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* About Section */
+.about {
+    padding: 60px;
+    background: #fff0f6;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left {
+    width: 40%;
+    font-size: 30px;
+    color: #ff4da6;
+    font-weight: bold;
+}
+
+.right {
+    width: 60%;
+}
+
+/* About text */
+.right p {
+    color: #444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Skills title */
+.right h3 {
+    margin-top: 20px;
+    color: #8b5cf6;
+}
+
+/* Skills style */
+.right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right ul li {
+    background: #ff4da6;
+    color: white;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.right ul li:hover {
+    background: #e60073;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(180deg, #8b5cf6, #ff4da6);
+    color: white;
+}
+
+footer h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+/* Social links */
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.social a:hover {
+    background: white;
+    color: #ff4da6;
+}
